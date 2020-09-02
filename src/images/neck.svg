@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="67" viewBox="0 0 46 67">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fece8a;
+      }
+    </style>
+  </defs>
+  <path id="neck" class="cls-1" d="M2,0H36A10,10,0,0,1,46,10V57A10,10,0,0,1,36,67H10A10,10,0,0,1,0,57V2A2,2,0,0,1,2,0Z"/>
+</svg>

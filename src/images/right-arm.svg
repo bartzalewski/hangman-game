@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="126.343" height="122.062" viewBox="0 0 126.343 122.062">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4ea06a;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="right_arm" data-name="right arm" class="cls-1" d="M432.756,569.677l23.864-24.218a10,10,0,0,1,14.142-.1l84.763,83.525a10,10,0,0,1,.1,14.141l-18.249,18.52a10,10,0,0,1-14.142.1l-90.461-89.14A2,2,0,0,1,432.756,569.677Z" transform="translate(-432.188 -542.469)"/>
+</svg>

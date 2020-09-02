@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="83.469" height="35.938" viewBox="0 0 83.469 35.938">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fece8a;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="right_foot" data-name="right foot" class="cls-1" d="M460.526,852.118l69.422-8.979a10,10,0,0,1,11.2,8.635l1.026,7.934a10,10,0,0,1-8.634,11.2l-61.488,7.953a10,10,0,0,1-11.2-8.635L458.8,854.358A2,2,0,0,1,460.526,852.118Z" transform="translate(-458.812 -843.031)"/>
+</svg>

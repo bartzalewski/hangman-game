@@ -1,13 +1,63 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'Aller Display';
+  src: url('./fonts/AllerDisplay.ttf');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #394060;
+  color: #53555d;
+  font-family: 'Aller Display';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+@media screen and (max-height: 950px) {
+  .word {
+    width: auto !important;
+    height: 115px !important;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .word {
+    width: auto !important;
+    height: 90px !important;
+  }
+
+  .word,
+  .wrong-letter {
+    font-size: 3rem !important;
+  }
+
+  .missed {
+    font-size: 1.5rem !important;
+  }
+
+  .wrong-container {
+    margin-left: 0 !important;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .popup-mobile {
+    display: flex !important;
+  }
 }
